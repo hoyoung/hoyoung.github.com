@@ -2,6 +2,10 @@ ul, ul a{
 	color: pink;
 }
 
+ul.email a {
+   color: green;
+}
+
 
 img {
   margin-bottom: 20px;
