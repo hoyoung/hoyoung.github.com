@@ -11,3 +11,20 @@ img {
   margin-bottom: 20px;
 }
 
+<SCRIPT>
+var speed=300;
+function m()
+{
+whattext.innerText="HoYoung" 
+setTimeout("e()",speed)
+}
+function e()
+{
+whattext.innerText=""
+setTimeout("m()",speed)
+}
+</SCRIPT>
+<BODY onload=m()>
+<DIV id=whattext 
+style="FONT-SIZE: 34pt; COLOR: blue"></DIV>
+</SCRIPT></BODY></HTML>

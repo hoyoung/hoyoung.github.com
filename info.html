@@ -7,8 +7,25 @@
 </head>
 
 <body>
-<h1>HoYoung</h1>
 
+
+<SCRIPT>
+var speed=300;
+function m()
+{
+whattext.innerText="HoYoung" 
+setTimeout("e()",speed)
+}
+function e()
+{
+whattext.innerText=""
+setTimeout("m()",speed)
+}
+</SCRIPT>
+<BODY onload=m()>
+<DIV id=whattext 
+style="FONT-SIZE: 34pt; COLOR: pink"></DIV>
+</SCRIPT>
 
 </body>
 
